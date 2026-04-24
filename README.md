@@ -1,10 +1,10 @@
 # 🛒 E-Commerce Fraud Detection System
 
-## 📌 Overview
+##  Overview
 This project detects fraudulent customers using Machine Learning (Isolation Forest).
 It analyzes transaction data and identifies anomalies.
 
-## 🚀 Features
+## Features
 - Fraud detection using ML
 - Risk score calculation
 - Interactive dashboard (Streamlit)
@@ -12,22 +12,22 @@ It analyzes transaction data and identifies anomalies.
 - CSV download
 - Real-time risk prediction
 
-## 🛠 Tech Stack
+## Tech Stack
 - Python
 - Pandas
 - Scikit-learn
 - Streamlit
 - Plotly
 
-## ▶️ Run Locally
+## Run Locally
 pip install -r requirements.txt
 streamlit run dashboard.py
 
-## 📊 Output
+## Output
 - Anomaly = -1 → Fraud
 - Anomaly = 1 → Normal
 
-## 💼 Business Impact
+## Business Impact
 - Early fraud detection
 - Reduced losses
 - Better monitoring
