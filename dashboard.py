@@ -8,7 +8,7 @@ st.set_page_config(page_title="Fraud Detection Dashboard", layout="wide")
 st.title("🛒 E-Commerce Fraud Detection Dashboard")
 
 # ------------------ LOAD DATA ------------------
-df = pd.read_csv("results/customer_risk.csv")
+df = pd.read_csv("./results/customer_risk.csv")
 
 # ------------------ CREATE RISK CATEGORY ------------------
 def risk_category(score):
