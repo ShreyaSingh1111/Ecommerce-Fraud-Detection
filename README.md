@@ -31,3 +31,9 @@ streamlit run dashboard.py
 - Early fraud detection
 - Reduced losses
 - Better monitoring
+
+## requirements
+-streamlit
+-pandas
+-plotly
+-scikit-learn
